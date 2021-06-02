@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/CvNinmar/static/css/main.12268149.chunk.css",
+    "main.js": "/CvNinmar/static/js/main.6d01e6a4.chunk.js",
+    "main.js.map": "/CvNinmar/static/js/main.6d01e6a4.chunk.js.map",
+    "runtime-main.js": "/CvNinmar/static/js/runtime-main.3f700bcd.js",
+    "runtime-main.js.map": "/CvNinmar/static/js/runtime-main.3f700bcd.js.map",
+    "static/css/2.56e33495.chunk.css": "/CvNinmar/static/css/2.56e33495.chunk.css",
+    "static/js/2.e8013c51.chunk.js": "/CvNinmar/static/js/2.e8013c51.chunk.js",
+    "static/js/2.e8013c51.chunk.js.map": "/CvNinmar/static/js/2.e8013c51.chunk.js.map",
+    "index.html": "/CvNinmar/index.html",
+    "precache-manifest.45fea6a65746fa2c8dec861fb85434b6.js": "/CvNinmar/precache-manifest.45fea6a65746fa2c8dec861fb85434b6.js",
+    "service-worker.js": "/CvNinmar/service-worker.js",
+    "static/css/2.56e33495.chunk.css.map": "/CvNinmar/static/css/2.56e33495.chunk.css.map",
+    "static/css/main.12268149.chunk.css.map": "/CvNinmar/static/css/main.12268149.chunk.css.map",
+    "static/js/2.e8013c51.chunk.js.LICENSE.txt": "/CvNinmar/static/js/2.e8013c51.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f700bcd.js",
+    "static/css/2.56e33495.chunk.css",
+    "static/js/2.e8013c51.chunk.js",
+    "static/css/main.12268149.chunk.css",
+    "static/js/main.6d01e6a4.chunk.js"
+  ]
+}
