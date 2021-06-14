@@ -5,6 +5,26 @@ import Kontaktamig from './Kontaktamig'
 export class Home extends Component {
 	static displayName = Home.name;
 
+	numberOfRepos = 0;
+
+	constructor() {
+		super();
+		this.state = {
+			numberOfRepos: 0
+        }
+
+	}
+
+	componentDidMount() {
+		fetch('https://api.github.com/users/NinmarAcar/repos')
+			.then(response => response.json())
+			.then(json => { console.log(json.length)
+				this.setState({
+					numberOfRepos: json.length
+				})
+			});
+    }
+
 	render() {
 		return (
 			<div>
@@ -28,6 +48,7 @@ export class Home extends Component {
 				<h2 style={{ color: "#C8C8C8" }}>KOMPETENSER</h2>
 				<h4 style={{ color: "Black" }}>Kodningsspråk - grundläggande</h4>
 				C#, UML, ASP.NET, JavaScript, SQL, <a href="https://github.com/NinmarAcar">GitHub</a>
+					<div><p> Projekt som finns tillgängliga på min Github: {this.state.numberOfRepos}</p></div>
 				<h2 style={{ color: "#C8C8C8;" }}>Språk</h2>
 				<p>
 						Svenska | Engelska | Assyriska
